@@ -1,4 +1,4 @@
-name: Progress Bar CI
+name: Plant Tree CI
 
 on:
   push:

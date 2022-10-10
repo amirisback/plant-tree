@@ -1,3 +1,5 @@
+![](existing-garden.png?raw=true)
+
 ## Plant Tree
 - Keep Green Your Commit Garden
 

@@ -1,4 +1,4 @@
 const readme = `\
-⏰ Updated on ${new Date().toUTCString()}
+Plant some tree 🌳 on ⏰ ${new Date().toUTCString()}
 `
 console.log(readme)

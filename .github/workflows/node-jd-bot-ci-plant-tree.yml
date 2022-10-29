@@ -18,8 +18,17 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '14.x'
-    - name: plant a tree in the garden
+    - name: Plant a tree in the garden
       run: node index.js > GARDEN.md
+
+    - name: Plant a tree in the park
+      run: node index.js > plant-tree-park/PARK.md
+
+    - name: Pull & update submodules recursively
+      run: |
+        git submodule update --init --recursive
+        git submodule update --recursive --remote
+
     - name: Commit change & Push
       run: |
           git config user.name 'amirisback'
